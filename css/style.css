@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+	padding: 0;
+	margin: 0;
+	line-height: 1.2;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+li {
+	list-style-type: none;
+	display: flex;
+}
+a {
+	text-decoration: none;
+}
+h3 {
+	font-size: 40px;
+	color: rgb(34, 34, 34);
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;	
+}
+header {
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/slider-bg.png) top center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 940px;
+}
+.header-navigation {
+	padding-top: 50px;
+}
+.container a {
+	color: #fff;
+	font-size: 14px;
+	margin-right: 63px;
+}
+#menu-checkbox {
+	display: none;
+}
+.baner-content {
+	color: #fff;
+	margin: 205px auto;
+	text-transform: uppercase;
+	text-align: center;
+}
+.baner-content h2{
+	font-size: 40px;
+}
+.baner-content h1{
+	font-size: 70px;
+	margin: 50px auto;
+}
+.baner-content a {
+		margin: 0 auto;
+}
+.baner-content button {
+	background-color: #fed136;
+	color: rgb(72, 69, 67);
+	padding: 22px 43px;
+	font-size: 18px;
+	border: 0;
+	border-radius: 3px;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-bottom: 160px;
+}
+.services {
+	margin: 120px auto;
+	text-align: center;
+}
+p.sup-title {
+	font-size: 16px;
+	color: rgb(119, 119, 119);
+	margin: 20px auto;
+	text-align: center;
+}
+.services-container {
+	width: 100%;
+	margin: 80px auto;
+}
+.servis p {
+		margin: 11px auto;
+		font-size: 14px;
+		color: rgb(119, 119, 119);	
+}
+.servis h5 {
+		margin: 15px auto;
+		font-size: 18px;
+		color: rgb(34, 34, 34);
+}
+.image-item {
+	width: 100%;
+}
+.our-portfolio {
+	margin: 240px auto;
+	text-align: center;
+}
+.about-us {
+	margin: 260px auto;
+}
+.about-article_l {
+	float: right;
+	text-align: left;
+	width: 60%;
+	margin: 100px 0;
+}
+.about-article_r {
+	float: left;
+	text-align: right;
+	width: 60%;
+	margin: 100px 0;
+}
+.about-article_r img,
+.about-article_l img {
+	border-radius: 100%;
+	/*max-width: 170px;*/
+}
+.text {
+	min-width: 280px;
+	max-width: 320px;
+}
+.about-article_l>.text {
+	margin-left: 45px;
+}
+.about-article_r>.text {
+	margin-right: 45px;
+}
+.up{
+	text-transform: uppercase;
+	margin: 10px auto;
+}
+.text p {
+	margin: 20px auto;
+}
+main {
+	height: 100%;
+}
+footer {
+	text-align: center;
+	margin: 120px auto;
+	width: 100%;
+}
+footer .container a {
+	color: rgb(119, 119, 119);
+}
