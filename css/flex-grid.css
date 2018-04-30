@@ -16,16 +16,15 @@
 	grid-template-columns: minmax(240px, 290px) minmax(240px, 290px) minmax(240px, 290px);
 	grid-gap: 80px;
 }
-.about-article_r,
-.about-article_l {
+.about-article {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	justify-content: space-between;
 	-ms-align-items: center;
 	align-items: center;
-	flex-wrap: wrap;
 }
 footer .container {
 	display: -webkit-flex;
